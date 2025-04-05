@@ -1,6 +1,6 @@
 // src/utils/api.js
 
-const API_BASE_URL = `${process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000'}/api`;
+const API_BASE_URL = `https://webblog-f7beb8c9hxdkgac7.centralindia-01.azurewebsites.net/api`;
 
 // this is the above api which we are tryin to fetch via 
 const handleResponse = async (response) => {
